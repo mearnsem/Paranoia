@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4027A9FF20D8B4AD00461830 /* Branding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027A9FE20D8B4AD00461830 /* Branding.swift */; };
+		4048D0FC20B6691D00BCBC71 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048D0FB20B6691D00BCBC71 /* HomeViewController.swift */; };
+		4048D0FE20B6737800BCBC71 /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048D0FD20B6737800BCBC71 /* HowToPlayViewController.swift */; };
+		4048D10120B7CB5700BCBC71 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048D10020B7CB5700BCBC71 /* Questions.swift */; };
+		4083AD4E207F27F900839D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083AD4D207F27F900839D94 /* AppDelegate.swift */; };
+		4083AD55207F27FC00839D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4083AD54207F27FC00839D94 /* Assets.xcassets */; };
+		4083AD58207F27FC00839D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4083AD56207F27FC00839D94 /* LaunchScreen.storyboard */; };
+		4083AD63207F27FC00839D94 /* ParanoiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083AD62207F27FC00839D94 /* ParanoiaTests.swift */; };
+		4083AD6E207F27FC00839D94 /* ParanoiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083AD6D207F27FC00839D94 /* ParanoiaUITests.swift */; };
+		408CB67620B9199B0033ED56 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408CB67520B9199B0033ED56 /* PlayingCard.swift */; };
+		408CB67A20B91B440033ED56 /* PlayingCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408CB67920B91B440033ED56 /* PlayingCardViewController.swift */; };
+		40B6CD43210EB67F00908122 /* ShareViewSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6CD42210EB67E00908122 /* ShareViewSwitch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4083AD5F207F27FC00839D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083AD42207F27F800839D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4083AD49207F27F800839D94;
+			remoteInfo = Paranoia;
+		};
+		4083AD6A207F27FC00839D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083AD42207F27F800839D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4083AD49207F27F800839D94;
+			remoteInfo = Paranoia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4027A9FE20D8B4AD00461830 /* Branding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branding.swift; sourceTree = "<group>"; };
+		4048D0FB20B6691D00BCBC71 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4048D0FD20B6737800BCBC71 /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		4048D10020B7CB5700BCBC71 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		4083AD4A207F27F900839D94 /* Paranoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paranoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083AD4D207F27F900839D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4083AD54207F27FC00839D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4083AD57207F27FC00839D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4083AD59207F27FC00839D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083AD5E207F27FC00839D94 /* ParanoiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParanoiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083AD62207F27FC00839D94 /* ParanoiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParanoiaTests.swift; sourceTree = "<group>"; };
+		4083AD64207F27FC00839D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083AD69207F27FC00839D94 /* ParanoiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParanoiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083AD6D207F27FC00839D94 /* ParanoiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParanoiaUITests.swift; sourceTree = "<group>"; };
+		4083AD6F207F27FC00839D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408CB67520B9199B0033ED56 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		408CB67920B91B440033ED56 /* PlayingCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardViewController.swift; sourceTree = "<group>"; };
+		40B6CD42210EB67E00908122 /* ShareViewSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewSwitch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4083AD47207F27F800839D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD5B207F27FC00839D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD66207F27FC00839D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4048D0FF20B6738B00BCBC71 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4083AD54207F27FC00839D94 /* Assets.xcassets */,
+				4083AD56207F27FC00839D94 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4083AD41207F27F800839D94 = {
+			isa = PBXGroup;
+			children = (
+				4083AD4C207F27F900839D94 /* Paranoia */,
+				4048D0FF20B6738B00BCBC71 /* Assets */,
+				4083AD61207F27FC00839D94 /* ParanoiaTests */,
+				4083AD6C207F27FC00839D94 /* ParanoiaUITests */,
+				4083AD4B207F27F900839D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4083AD4B207F27F900839D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4083AD4A207F27F900839D94 /* Paranoia.app */,
+				4083AD5E207F27FC00839D94 /* ParanoiaTests.xctest */,
+				4083AD69207F27FC00839D94 /* ParanoiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4083AD4C207F27F900839D94 /* Paranoia */ = {
+			isa = PBXGroup;
+			children = (
+				4083AD4D207F27F900839D94 /* AppDelegate.swift */,
+				4027A9FE20D8B4AD00461830 /* Branding.swift */,
+				408CB67820B919AD0033ED56 /* View Controllers */,
+				408CB67720B919A70033ED56 /* Models */,
+				4083AD59207F27FC00839D94 /* Info.plist */,
+			);
+			path = Paranoia;
+			sourceTree = "<group>";
+		};
+		4083AD61207F27FC00839D94 /* ParanoiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4083AD62207F27FC00839D94 /* ParanoiaTests.swift */,
+				4083AD64207F27FC00839D94 /* Info.plist */,
+			);
+			path = ParanoiaTests;
+			sourceTree = "<group>";
+		};
+		4083AD6C207F27FC00839D94 /* ParanoiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4083AD6D207F27FC00839D94 /* ParanoiaUITests.swift */,
+				4083AD6F207F27FC00839D94 /* Info.plist */,
+			);
+			path = ParanoiaUITests;
+			sourceTree = "<group>";
+		};
+		408CB67720B919A70033ED56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				408CB67520B9199B0033ED56 /* PlayingCard.swift */,
+				40B6CD42210EB67E00908122 /* ShareViewSwitch.swift */,
+				4048D10020B7CB5700BCBC71 /* Questions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		408CB67820B919AD0033ED56 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4048D0FB20B6691D00BCBC71 /* HomeViewController.swift */,
+				408CB67920B91B440033ED56 /* PlayingCardViewController.swift */,
+				4048D0FD20B6737800BCBC71 /* HowToPlayViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4083AD49207F27F800839D94 /* Paranoia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083AD72207F27FC00839D94 /* Build configuration list for PBXNativeTarget "Paranoia" */;
+			buildPhases = (
+				4083AD46207F27F800839D94 /* Sources */,
+				4083AD47207F27F800839D94 /* Frameworks */,
+				4083AD48207F27F800839D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paranoia;
+			productName = Paranoia;
+			productReference = 4083AD4A207F27F900839D94 /* Paranoia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4083AD5D207F27FC00839D94 /* ParanoiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083AD75207F27FC00839D94 /* Build configuration list for PBXNativeTarget "ParanoiaTests" */;
+			buildPhases = (
+				4083AD5A207F27FC00839D94 /* Sources */,
+				4083AD5B207F27FC00839D94 /* Frameworks */,
+				4083AD5C207F27FC00839D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083AD60207F27FC00839D94 /* PBXTargetDependency */,
+			);
+			name = ParanoiaTests;
+			productName = ParanoiaTests;
+			productReference = 4083AD5E207F27FC00839D94 /* ParanoiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4083AD68207F27FC00839D94 /* ParanoiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083AD78207F27FC00839D94 /* Build configuration list for PBXNativeTarget "ParanoiaUITests" */;
+			buildPhases = (
+				4083AD65207F27FC00839D94 /* Sources */,
+				4083AD66207F27FC00839D94 /* Frameworks */,
+				4083AD67207F27FC00839D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083AD6B207F27FC00839D94 /* PBXTargetDependency */,
+			);
+			name = ParanoiaUITests;
+			productName = ParanoiaUITests;
+			productReference = 4083AD69207F27FC00839D94 /* ParanoiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4083AD42207F27F800839D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = em;
+				TargetAttributes = {
+					4083AD49207F27F800839D94 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1130;
+					};
+					4083AD5D207F27FC00839D94 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1130;
+						TestTargetID = 4083AD49207F27F800839D94;
+					};
+					4083AD68207F27FC00839D94 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1130;
+						TestTargetID = 4083AD49207F27F800839D94;
+					};
+				};
+			};
+			buildConfigurationList = 4083AD45207F27F800839D94 /* Build configuration list for PBXProject "Paranoia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4083AD41207F27F800839D94;
+			productRefGroup = 4083AD4B207F27F900839D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4083AD49207F27F800839D94 /* Paranoia */,
+				4083AD5D207F27FC00839D94 /* ParanoiaTests */,
+				4083AD68207F27FC00839D94 /* ParanoiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4083AD48207F27F800839D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083AD58207F27FC00839D94 /* LaunchScreen.storyboard in Resources */,
+				4083AD55207F27FC00839D94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD5C207F27FC00839D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD67207F27FC00839D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4083AD46207F27F800839D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408CB67620B9199B0033ED56 /* PlayingCard.swift in Sources */,
+				4027A9FF20D8B4AD00461830 /* Branding.swift in Sources */,
+				40B6CD43210EB67F00908122 /* ShareViewSwitch.swift in Sources */,
+				408CB67A20B91B440033ED56 /* PlayingCardViewController.swift in Sources */,
+				4083AD4E207F27F900839D94 /* AppDelegate.swift in Sources */,
+				4048D10120B7CB5700BCBC71 /* Questions.swift in Sources */,
+				4048D0FC20B6691D00BCBC71 /* HomeViewController.swift in Sources */,
+				4048D0FE20B6737800BCBC71 /* HowToPlayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD5A207F27FC00839D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083AD63207F27FC00839D94 /* ParanoiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083AD65207F27FC00839D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083AD6E207F27FC00839D94 /* ParanoiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4083AD60207F27FC00839D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4083AD49207F27F800839D94 /* Paranoia */;
+			targetProxy = 4083AD5F207F27FC00839D94 /* PBXContainerItemProxy */;
+		};
+		4083AD6B207F27FC00839D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4083AD49207F27F800839D94 /* Paranoia */;
+			targetProxy = 4083AD6A207F27FC00839D94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4083AD56207F27FC00839D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4083AD57207F27FC00839D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4083AD70207F27FC00839D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4083AD71207F27FC00839D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4083AD73207F27FC00839D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83596V8S6;
+				INFOPLIST_FILE = Paranoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.Paranoia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4083AD74207F27FC00839D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A83596V8S6;
+				INFOPLIST_FILE = Paranoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.Paranoia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4083AD76207F27FC00839D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7D73LJ49H;
+				INFOPLIST_FILE = ParanoiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.ParanoiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paranoia.app/Paranoia";
+			};
+			name = Debug;
+		};
+		4083AD77207F27FC00839D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7D73LJ49H;
+				INFOPLIST_FILE = ParanoiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.ParanoiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paranoia.app/Paranoia";
+			};
+			name = Release;
+		};
+		4083AD79207F27FC00839D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7D73LJ49H;
+				INFOPLIST_FILE = ParanoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.ParanoiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paranoia;
+			};
+			name = Debug;
+		};
+		4083AD7A207F27FC00839D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7D73LJ49H;
+				INFOPLIST_FILE = ParanoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.em.ParanoiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paranoia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4083AD45207F27F800839D94 /* Build configuration list for PBXProject "Paranoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083AD70207F27FC00839D94 /* Debug */,
+				4083AD71207F27FC00839D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4083AD72207F27FC00839D94 /* Build configuration list for PBXNativeTarget "Paranoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083AD73207F27FC00839D94 /* Debug */,
+				4083AD74207F27FC00839D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4083AD75207F27FC00839D94 /* Build configuration list for PBXNativeTarget "ParanoiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083AD76207F27FC00839D94 /* Debug */,
+				4083AD77207F27FC00839D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4083AD78207F27FC00839D94 /* Build configuration list for PBXNativeTarget "ParanoiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083AD79207F27FC00839D94 /* Debug */,
+				4083AD7A207F27FC00839D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4083AD42207F27F800839D94 /* Project object */;
+}
