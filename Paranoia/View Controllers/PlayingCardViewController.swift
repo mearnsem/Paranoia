@@ -82,7 +82,7 @@ final class PlayingCardViewController: UIViewController {
         spinButton.isEnabled = false
         spinButton.backgroundColor = Branding.disableButtonColor
         
-        let share = randomBool()
+        let share = Bool.random()
         shareSwitch.animateBackground(share: share)
         
         UIView.animate(withDuration: 1.0, delay: 0.0, animations: {
@@ -117,10 +117,6 @@ final class PlayingCardViewController: UIViewController {
         
         spinButton.isEnabled = true
         spinButton.backgroundColor = Branding.activeButtonColor
-    }
-    
-    private func randomBool() -> Bool {
-        return arc4random_uniform(2) == 0
     }
     
     // Animations
